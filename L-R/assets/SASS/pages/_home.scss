@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $background;
+    a {
+        text-decoration: none;
+        color: $a-color;
+    }
+}
+
+#login {
+    margin-top: 50px;
+
+    .container {
+        .row {
+            .login-card {
+                @extend #Box-Shadow;
+                background-color: $card-background;
+                width: 50%;
+                padding: 2rem 1rem;
+                margin: 50px auto;
+                border-radius: 10px;
+                text-align: center;
+
+                h1 {
+                    margin-bottom: 2rem;
+                }
+
+                form {
+                    input {
+                        width: 90%;
+                        outline: none;
+                        border: none;
+                        padding: 12px 20px;
+                        margin-bottom: 10px;
+                        border-radius: 20px;
+                        background-color: $input-background-color;
+
+                        &:focus {
+                            border: 1px solid $input-background-focus;
+                        }
+                    }
+                }
+
+                button {
+                    @extend #Button;
+                }
+
+                .member {
+                    font-size: 0.8rem;
+                    margin-top: 1.4rem;
+                    color: $text-color-gray;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+#Box-Shadow{
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+#Transition{
+    transition: all 0.3s;
+}
+#Button{
+    @extend #Transition;
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 80%;
+    color: $text-color-white;
+    background-color: $button-color;
+
+    &:hover {
+        background-color: $button-color-hover;
+    }
+}

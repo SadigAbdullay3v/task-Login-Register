@@ -1,0 +1,68 @@
+#Box-Shadow, #login .container .row .login-card {
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+#Transition, #Button, #login .container .row .login-card button {
+  transition: all 0.3s;
+}
+
+#Button, #login .container .row .login-card button {
+  font-size: 1rem;
+  margin-top: 1.8rem;
+  padding: 10px 0;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  width: 80%;
+  color: #fff;
+  background-color: #15769c;
+}
+#Button:hover, #login .container .row .login-card button:hover {
+  background-color: #0f5c7a;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dfe9f5;
+}
+body a {
+  text-decoration: none;
+  color: #0f5c7a;
+}
+
+#login {
+  margin-top: 50px;
+}
+#login .container .row .login-card {
+  background-color: #fff;
+  width: 50%;
+  padding: 2rem 1rem;
+  margin: 50px auto;
+  border-radius: 10px;
+  text-align: center;
+}
+#login .container .row .login-card h1 {
+  margin-bottom: 2rem;
+}
+#login .container .row .login-card form input {
+  width: 90%;
+  outline: none;
+  border: none;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: #e4e4e4;
+}
+#login .container .row .login-card form input:focus {
+  border: 1px solid #c0c0c0;
+}
+#login .container .row .login-card .member {
+  font-size: 0.8rem;
+  margin-top: 1.4rem;
+  color: 636363;
+}/*# sourceMappingURL=import.css.map */
